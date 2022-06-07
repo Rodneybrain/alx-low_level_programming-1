@@ -1,18 +1,19 @@
-#include <stdio.h>                                                                                                               
-                                                                                                                                 
-/**                                                                                                                              
- *print_alphabet, a function that prints the alphabet,  in lowercase, followed by a new line.                                    
- *                                                                                                                               
- * Return: Always 0.                                                                                                             
- */                                                                                                                              
-                                                                                                                                 
-void print_alphabet(void)                                                                                                        
-{                                                                                                                                
-        int x;            
-	
-	for (x = 'a'; x <= 'z'; x++)
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ *
+ * Return: Always 0 (Succes)
+ */
+void print_alphabet(void)
+{
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		_putchar(x);
-	{
+		_putchar(n);
+	}
 	_putchar('\n');
 }
