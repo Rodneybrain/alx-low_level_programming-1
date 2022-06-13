@@ -8,6 +8,7 @@
  */
 void print_rev(char *s)
 {
+	
 	int cend = 0;
 	int x, w;
 
